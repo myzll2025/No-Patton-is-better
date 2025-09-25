@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+/*
+   More changes in lake_layout.css
+*/
+
+.highlight1{
+  background-color: rgba(120,74,120,0.5); /*An application of semi-transparent colour.  */
+  height: 5vh;
+}
+
+.notice::before{
+   content: "⚠ notice: ";  /*A style rule that generates content in the rendered page.  */
+   color: red;
+   font-weight: bold;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column; 
+  gap: 5px;               
+}  /*Arrange the page using Flexbox and Grid Layouts. */
+
+a{
+  color:rgb(183,153,189);
+  text-decoration: none;
+}
+
+a:hover{
+   color:red;   /*Use of pseudo-elements and pseudo-classes as selectors. */
+}
+
+blockquote {
+   font-family: "cac_champagne";
+   font-size:30px;
+   font-style:italic;
+   color:blueviolet;
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgb(77,70,78); 
+   text-align: center;
+   padding: 5px;   /*Styles that modify the padding space  and margin space around an element. */
+}
+
+
+@font-face{
+   font-family:"cac_champagne";
+   src: url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\cac_champagne.ttf") format("truetype"),
+        url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\cac_champagne.woff") format("woff"),
+}
+@font-face{
+   font-family:"DobkinPlain";
+   src: url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\DobkinPlain.ttf") format("truetype"),
+        url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\DobkinPlain.woff") format("woff"),
+}
+
+   .cac_champagne
+{
+   font-family: "cac_champagne";
+   font-size: 50px;
+   font-style: normal;
+}
+   .DobkinPlain
+{
+   font-family: "DobkinPlain";
+   font-size: 30px;
+   font-style: normal;
+}
+

@@ -1,0 +1,123 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   The Great Lakescape Lodge Layout Styles
+   Filename: lake_layout.css
+
+*/
+
+
+/* Structural Styles */
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	color:#ffffff;
+	background-color: rgb(203,204,138); /* Setting background and text colours using both colour values and colour names.  */
+}
+
+body > header > img {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+body > section#leftcol {
+	width: 70%;
+	float: left;
+	margin-left: 0%;
+	background-color: black;
+}
+
+/* Selectors showing style rules applied to nested elements, child elements, and elements 
+based on the id attribute.*/
+
+body > section#leftcol >aside >h2{
+	text-align: center;
+}
+
+body > section#leftcol >aside >h2{
+	text-align: center;
+}
+
+body > section#rightcol >nav>h2{
+	font-family: "DobkinPlain";
+	font-size: 30px;
+	font-style: normal;
+}
+
+body > section#rightcol >nav>ul{
+	list-style: none; /*Styles that modify the appearance of lists and list markers. */
+}
+
+body > section#rightcol {
+	text-indent: 2em; 
+	width: 30%;
+	float: left;
+	margin-left: 0%;
+	background-color:rgb(88,45,90);
+}
+
+footer {
+	clear: both;
+}
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+
+/* Header Navigation */
+
+header > nav {
+	display: table;
+	width: 100%;
+}
+
+header > nav > ul {
+	display: table-row;
+	list-style-type: none;
+	
+}
+
+header > nav > ul > li {
+	display: table-cell;
+	text-align: center;
+	padding-top: 5px; 
+	background-color: rgb(120,74,120);
+	color:white
+}
+
+header > nav a {
+	display: block;
+	width: 100%;
+}
+
+
+/* Section Layout */
+
+section#leftcol aside {
+	width: 42%;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 20px;
+}
+
+section#leftcol img {
+	width: 100%;
+	display: block;
+}
+

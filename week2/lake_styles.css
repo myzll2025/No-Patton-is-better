@@ -62,13 +62,13 @@ footer{
 
 @font-face{
    font-family:"cac_champagne";
-   src: url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\cac_champagne.ttf") format("truetype"),
-        url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\cac_champagne.woff") format("woff"),
+   src: url("cac_champagne.ttf") format("truetype"),
+        url("cac_champagne.woff") format("woff"),
 }
 @font-face{
    font-family:"DobkinPlain";
-   src: url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\DobkinPlain.ttf") format("truetype"),
-        url("C:\\Users\\ASUS\\Desktop\\文件\\大三web开发\\week2\\Week 3 practical Data file\\case4-great-lakescape-lodge-data-file\\DobkinPlain.woff") format("woff"),
+   src: url("DobkinPlain.ttf") format("truetype"),
+        url("DobkinPlain.woff") format("woff"),
 }
 
    .cac_champagne
